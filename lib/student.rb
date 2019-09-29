@@ -1,8 +1,9 @@
 class Student < User 
   
-  attr_accessor :first_name, :last_name
+  attr_accessor :knowledge
+  
   def initialize
-    KNOWLEDGE = []
+    @knowledge = []
   end
 
 end
